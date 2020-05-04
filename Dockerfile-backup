@@ -8,4 +8,4 @@ COPY lib ./lib
 COPY app.json .
 RUN npm install
 EXPOSE 9000
-CMD node bin/peerjs --port 9000
+CMD node bin/peerjs --port 9000 --key capepeerkey
